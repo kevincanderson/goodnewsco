@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Moosend Tracking / Verification -->
     <script>
       //load TrackerJS
       //prettier-ignore
@@ -11,6 +12,9 @@
       //tracker has to be initialized otherwise it will generate warnings and wont sendtracking events
       //prettier-ignore
       mootrack('init', '41762ae8-6992-4ee1-8556-e320b0647658');
+      // track a view of the current page
+      //prettier-ignore
+      mootrack('trackPageView');
     </script>
     <title>Good News Co</title>
   </head>
